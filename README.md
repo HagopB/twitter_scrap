@@ -1,7 +1,7 @@
 # Twitter scrap #
 
 ### What is this repository for? 
-A python script for Twitter Search scraping based on an ([implementation provided by Tom Dickinson](https://github.com/tomkdickinson/Twitter-Search-API-Python)). 
+A python script for Twitter Search scraping based on an [implementation provided by Tom Dickinson](https://github.com/tomkdickinson/Twitter-Search-API-Python). 
 
 ### How do I get set up ?
 ##### Step by step:
