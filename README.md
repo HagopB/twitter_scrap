@@ -2,8 +2,8 @@
 
 ### What is this repository for? 
 A python script for Twitter Search scraping based on an [implementation provided by Tom Dickinson](https://github.com/tomkdickinson/Twitter-Search-API-Python). 
-
-### How do I get set up ?
+The scripts uses tor proxy to not get black-listed by our dear friend twitter ;) so you will need to install socks
+### How do I get set up ?wiki_deeplearning/wiki
 ##### Step by step:
 Install:
 * requests 
@@ -14,6 +14,15 @@ pip install requests
 pip install pickle
 pip install BeautifulSoup
 ```
+To get To (using ubuntu), install:
+* tor 
+* PySocks
+
+```
+sudo apt-get install tor
+pip install PySocks
+```
+
 ### How do I get tweets ?
 you may have information on how to run ```scrap.py``` by:
 ```
