@@ -14,7 +14,7 @@ pip install requests
 pip install pickle
 pip install BeautifulSoup
 ```
-To get To (using ubuntu), install:
+To be anonymous (using ubuntu), install:
 * tor 
 * PySocks
 
