@@ -45,7 +45,7 @@ parser.add_option("--save_path",
 
 parser.add_option("--print_tweets",
                   dest="print_tweets",
-                  default=False,
+                  action="store_true",
                   help="If True all scrapped tweets will be printed.")
 
 
