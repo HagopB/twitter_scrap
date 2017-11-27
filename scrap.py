@@ -76,7 +76,13 @@ if options.scrap_type == 'slice':
 
 
 '''***************************************************'''
+import socks
+import socket
 
+socks.setdefaultproxy(proxy_type=socks.PROXY_TYPE_SOCKS5, addr="127.0.0.1", port=9050)
+socket.socket = socks.socksocket
+
+'''***************************************************'''
 print('Indicated scrap type: {}'.format(options.scrap_type))
 print('Scraping for keywords: {}'.format(options.search_query_list))
 
